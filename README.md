@@ -1,10 +1,6 @@
 
 ## Bag of Tricks for Image Classification with Convolutional Neural Networks
 
-**This repository contains code for [Bag of Tricks for Image Classification with Convolutional Neural Networks](https://learnopencv.com/bag-of-tricks-for-image-classification/) blogpost**.
-
-[<img src="https://learnopencv.com/wp-content/uploads/2022/07/download-button-e1657285155454.png" alt="download" width="200">](https://www.dropbox.com/sh/szhe8r7eecr4xsp/AAANsa-FIaRNXIip3X_IA71Za?dl=1)
-
 The pipeline is based on [pytorch-lightning framework](https://github.com/PyTorchLightning/pytorch-lightning).
 
 ### Installation
@@ -62,20 +58,4 @@ To evaluate a trained model launch
 ```
 python main.py --gpus [gpus_number] --data-root [path_to_dataset] -e --checkpoint [path_to_checkpoint]
 ```
-
-### Colab Notebook
-
-You can also train a colab-based version of this model:
-
-[Open in Colab](https://colab.research.google.com/github/spmallick/learnopencv/blob/master/Bag-Of-Tricks-For-Image-Classification/bag-of-tricks-colab.ipynb)
-
-## AI Courses by OpenCV
-
-Want to become an expert in AI? [AI Courses by OpenCV](https://opencv.org/courses/) is a great place to start.
-
-<a href="https://opencv.org/courses/">
-<p align="center">
-<img src="https://learnopencv.com/wp-content/uploads/2023/01/AI-Courses-By-OpenCV-Github.png">
-</p>
-</a>
 
